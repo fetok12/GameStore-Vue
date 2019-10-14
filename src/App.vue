@@ -1,28 +1,66 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <Navbar/>
+    <Carousel/>
+    <SectionOne/>
+    <WhatsappSection/>
+    <SectionTwo/>
+    <SectionThree/>
+    <SectionFour/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Header from "./components/layout/Header";
+import Navbar from "./components/layout/Navbar";
+import Carousel from "./components/layout/Carousel";
+import SectionOne from "./components/layout/SectionOne";
+import WhatsappSection from "./components/layout/WhatsappSection";
+import SectionTwo from "./components/layout/SectionTwo";
+import SectionThree from "./components/layout/SectionThree";
+import SectionFour from "./components/layout/SectionFour";
+import Footer from "./components/layout/Footer";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    Header,
+    Navbar,
+    Carousel,
+    SectionOne,
+    WhatsappSection,
+    SectionTwo,
+    SectionThree,
+    SectionFour,
+    Footer
   }
-}
+};
 </script>
 
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
 }
 </style>
