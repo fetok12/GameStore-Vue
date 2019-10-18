@@ -1,4 +1,3 @@
-# zentasarimvue
 
 ## Project setup
 
