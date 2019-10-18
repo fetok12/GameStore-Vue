@@ -1,7 +1,5 @@
 # zentasarimvue
 
-npm install ve sonrasında npm run serve komutu ile çalıştırabilirsiniz.
-
 ## Project setup
 
 ```
